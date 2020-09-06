@@ -1,0 +1,35 @@
+{
+  "name": "js_excel",
+  "version": "0.1.0",
+  "description": "JavaScript Excel Web form",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvuri/js_excel.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "vvuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvuri/js_excel/issues"
+  },
+  "homepage": "https://github.com/vvuri/js_excel#readme",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^0.11.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
