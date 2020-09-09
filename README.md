@@ -1,7 +1,7 @@
 # js_excel
 Native js project
 
-#### processi
+#### process
 - add .gitignore
 - $ git checkout -b webpack
 - $ npm init
@@ -22,6 +22,8 @@ Native js project
 - add index.html -> !+Tab - run emmit script for empty html
     - div#app + Tab -> <div id="app"></div>
 - add fivicon.ico
+- $ npm install sass-loader node-sass css-loader --save-dev
+- add modules in config file
 
 
 
