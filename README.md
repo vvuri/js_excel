@@ -24,10 +24,12 @@ Native js project
 - add fivicon.ico
 - $ npm install sass-loader node-sass css-loader --save-dev
 - add modules in config file
-- goto [babel](https://babeljs.io/setup#installation)
-- $ npm install --save-dev babel-loader @babel/core
-- $ npm install @babel/preset-env --save-dev
-- add rules to webpack.config 
+- babel
+    - goto [babel](https://babeljs.io/setup#installation)
+    - $ npm install --save-dev babel-loader @babel/core
+    - $ npm install @babel/preset-env --save-dev
+    - $ npm install --save @babel/polyfill
+    - add rules to webpack.config 
 - add brouser support in package.json
     - "browserslist": "> 0.25%, not dead"
 - add work with ENV
