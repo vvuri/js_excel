@@ -24,13 +24,24 @@ Native js project
 - add fivicon.ico
 - $ npm install sass-loader node-sass css-loader --save-dev
 - add modules in config file
-- goto https://babeljs.io/setup#installation
+- goto [babel](https://babeljs.io/setup#installation)
 - $ npm install --save-dev babel-loader @babel/core
 - $ npm install @babel/preset-env --save-dev
 - add rules to webpack.config 
 - add brouser support in package.json
     - "browserslist": "> 0.25%, not dead"
-    
+- add work with ENV
+    - $ npm i -D cross-env    
+    - work with process.env.NODE_ENV
+    - add bool param drive minification
+- add SourceMap link original es6 syntax code to transpilled
+    - add to webpack conf
+    - devtool: isDev ? 'source-map' : false
+- add [DevServer](https://webpack.js.org/configuration/dev-server/)
+    - $ npm install webpack-dev-server --save-dev
+    - upgrade dependency:
+    - $ npm install fsevents
+    - run webpack-dev-server
 
 
 
