@@ -44,6 +44,16 @@ Native js project
     - upgrade dependency:
     - $ npm install fsevents
     - run webpack-dev-server
+- add eslint
+    - $ npm i -D eslint eslint-loader babel-eslint
+    - add in webpack.config
+    - add .eslintrc with configurations rules
+        - find ["eslint google"](https://github.com/google/eslint-config-google)
+        - $ npm install --save-dev eslint-config-google
+        - "eslint:recommended", "google"
+    - add .eslintignore
+
+
 
 
 
