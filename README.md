@@ -1,7 +1,7 @@
 # js_excel
 Native js project
 
-#### process
+#### configure project
 - add .gitignore
 - $ git checkout -b webpack
 - $ npm init
@@ -48,11 +48,12 @@ Native js project
     - $ npm i -D eslint eslint-loader babel-eslint
     - add in webpack.config
     - add .eslintrc with configurations rules
-        - find ["eslint google"](https://github.com/google/eslint-config-google)
-        - $ npm install --save-dev eslint-config-google
-        - "eslint:recommended", "google"
-    - add .eslintignore
-
+        - $ ./node_modules/.bin/eslint --init
+            - add google syntax
+            - js format
+            - "eslint:recommended", "google"
+        - in VSCode
+            - add module Eslint
 
 
 
