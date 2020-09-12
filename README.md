@@ -55,6 +55,12 @@ Native js project
         - in VSCode
             - add module Eslint
 
+#### GIT 
+    - all changes in new branch
+    - in VSCode work with
+        - Stage -> Commit -> Push
+    - in GitHub -> Pull request to master
+        
 
 
 
